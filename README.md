@@ -18,3 +18,14 @@ Ever wondered what to cook with the leftover items in your kitchen? Just take a 
 1. **Upload** an image of food or ingredients.
 2. The app **analyzes** the image and detects the ingredients.
 3. It then **suggests** relevant recipes you can make with those ingredients.
+
+## ⚙️ Getting started
+
+```bash
+pip install -r requirements.txt
+export DJANGO_SECRET_KEY=your_django_secret_key   # optional for local development
+cd src
+python manage.py migrate
+python manage.py runserver
+```
+Then open http://127.0.0.1:8000 and upload a food photo.
